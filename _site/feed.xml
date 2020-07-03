@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-06-30T12:51:56-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-02T13:21:35-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Wheelchair</title><link href="/blog/wheelchair/" rel="alternate" type="text/html" title="Wheelchair" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/wheelchair</id><content type="html" xml:base="/blog/wheelchair/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;I just want this to do something cool&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">A Semi-Autonomous Wheelchair that you can control with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">Gazetracker</title><link href="/blog/gazetracker/" rel="alternate" type="text/html" title="Gazetracker" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/gazetracker</id><content type="html" xml:base="/blog/gazetracker/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">A new solution for fast and accurate control of your cursor with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry><entry><title type="html">Konstruct</title><link href="/blog/konstruct/" rel="alternate" type="text/html" title="Konstruct" /><published>2019-11-30T00:00:00-07:00</published><updated>2019-11-30T00:00:00-07:00</updated><id>/blog/konstruct</id><content type="html" xml:base="/blog/konstruct/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;I just want this to do something cool&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">A set of tools for generating simulation data using Unity 3D</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">Ultimate Gridworld</title><link href="/blog/gridworld/" rel="alternate" type="text/html" title="Ultimate Gridworld" /><published>2019-05-20T00:00:00-06:00</published><updated>2019-05-20T00:00:00-06:00</updated><id>/blog/gridworld</id><content type="html" xml:base="/blog/gridworld/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;I just want this to do something cool&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">An Easily extensible grid based maze generator with obstacles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">Smart Vent</title><link href="/blog/vent/" rel="alternate" type="text/html" title="Smart Vent" /><published>2018-12-15T00:00:00-07:00</published><updated>2018-12-15T00:00:00-07:00</updated><id>/blog/vent</id><content type="html" xml:base="/blog/vent/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Note: at the moment, this post is just a collection of thoughts and content that I wish to express more fluidly at a later date.&lt;/p&gt;
+
+&lt;p&gt;My smart vent is a project designed to increase the effeciency of air conditioning and heating systems by making sure that only active rooms of a house are heated and cooled.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;As of this post, rooftop solar panels are incapable of generating enough power to completely disconnect most homes from the power grid. It is also the case that the largest consumer of power in most households is the climate control system, i.e. heating and cooling.&lt;/p&gt;
+
+&lt;p&gt;In late 2018, while I procrastinated studying for finals, I made the realization that in the same way the Nest thermostat saves energy by only heating the home when people are there, a great deal more savings could be obtained by only heating the active regions of a person’s house. With any luck, this technology will make people’s homes energy efficient enough switch to renewable energy.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;My smart vent consists of an esp8266 wifi-enabled microcontroller, an infrared thermometer, a motion sensor, a motor and a custom housing. In addition, I created a hub using a raspberry pi for this vent to connect to.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The microcontroller communicates with the central hub to detect the user designated target temperature of the room. The infrared thermometer then measures the temperature of the environment around the vent and will open the vent when the climate control system needs to change the temperature of the room.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A wide field of view motion sensor tracks how frequently people navigate through the room and reports this information back to the central hub. If the hub is triggered frequently enough, the vent will receive an active status. Unless the vent is active, it will remain closed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;By only heating active regions of the house, power consumption should be noticably reduced enough to compensate for the cost of the system and hopefully make solar power a viable option.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The total cost of all parts for the vent was only around $30 per vent, plus the cost of the raspberry pi setup was a little more pricey at around $100, but that is still less than the cost of a smart thermostat.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A machine learning model which learns a persons habbits and predicts when to heat/cool a room. (If we detect movement at 5pm every day, lets start heating the house at 4:30 so that it is at the right temperature when they show up)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;problems-that-came-up&quot;&gt;Problems that Came Up&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Initially, I tried to use a simple thermometer chip attached to the microcontroller, however, this solution was biased, measuring the heat of the air coming through the vent, rather than measuring the heat of the room. I solved this problem by switching to a more expensive infrared thermometer that can measure temperature at a distance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I attempted to use the infrared thermometer as a motion sensor to detect a spike in temperature when a person passed by the beam. While this approach demonstrated moderate success, I decided against this approach for a number of reasons. First, it would require the sensor to protrude from the vent to allow it to be manipulated along a highly trafficked path which is unsightly. Second, this infrared beam, even if pointed in the direction of a highly trafficked path could still be easily avoided, leading the vent to falsely believe that the room it is in is inactive. Finally, manipulating this sensor is a level of involvement that could be intimidating and frustrating to many users who just want a plug and play solution. My solution was to simply get a motion sensor with a wide field of view that could rest under the surface of the vent.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;future-work&quot;&gt;Future Work&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Refine the housing&lt;/li&gt;
+  &lt;li&gt;Design PCB to tightly integrate microcontroller and all sensors/motors.&lt;/li&gt;
+  &lt;li&gt;Research power solutions:
+    &lt;ul&gt;
+      &lt;li&gt;Is it possible to recharge the battery with a fan generator powered by air coming through the vent?&lt;/li&gt;
+      &lt;li&gt;Is it possible to use a thermoelectric generator to recharge the battery from the temperature difference of the vent air and the ambient temperature of the room?&lt;/li&gt;
+      &lt;li&gt;Is it feasible to run wires through the air ducts to a wall outlet so that users dont have to worry about changing batteries?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other Sensors:
+    &lt;ul&gt;
+      &lt;li&gt;Humidity?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Refine the user interface on the Raspberry Pi&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;status&quot;&gt;Status&lt;/h2&gt;
+&lt;p&gt;When I first came up with the idea for this product, several other “smart” vents were already commercially available, but they were pretty underwhelming in that they had limited features/sensors,  had to be controlled manually, and were prohibitively expensive. As I was wrapping up work on my prototype, a new company released a vent which matched almost all of the features I had developed. In addition, they had an overreaching patent which gives them rights to control hvac flow at vents…&lt;/p&gt;
+
+&lt;p&gt;I am currently occupied with other endeavors, but I am not ruling out the possibility of revisiting this project depending on the success of these competitors&lt;/p&gt;</content><summary type="html">An iteration on the Nest thermostat for room by room temperature control and energy savings</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">StreamSurf</title><link href="/blog/streamsurf/" rel="alternate" type="text/html" title="StreamSurf" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/streamsurf</id><content type="html" xml:base="/blog/streamsurf/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I created a computer vision tool to conduct core elements of hydrology surveys including Surface Velocity, surface angle, and flow rate. Unfortunately, the measurements I obtained from my efforts differed too greatly from the ground truth data.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;The most important times to conduct a hydrology survey on a river is during times of high flow. Unfortunately, these are also the times when taking measurements are most dangerous. Traditional approaches require people to make contact with the raging waters of a river using equipment that can cost tens of thousands of dollars. If it were possible to create a method using cheap sensors that allow surveyors to make measurements from a distance, we could increase the scale of data collected by several orders of magnitude while moving people out of harms way.&lt;/p&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+&lt;p&gt;I used a stereo camera rig with with an Inertial Measurement Unit (IMU) to detect and track features on the surface of the river. Using these features, I was able to get an approximate 3D reconstruction of the river’s surface.&lt;/p&gt;
+
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">A computer vision approach for conducting hydrology surveys</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">My special test!</title><link href="/blog/new-test/" rel="alternate" type="text/html" title="My special test!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/new-test</id><content type="html" xml:base="/blog/new-test/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;I just want this to do something cool&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/debug.png" /></entry><entry><title type="html">My special test!</title><link href="/blog/new-test-copy/" rel="alternate" type="text/html" title="My special test!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/new-test copy</id><content type="html" xml:base="/blog/new-test-copy/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;I just want this to do something cool&lt;/p&gt;
+
+&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+
+&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+
+&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
+&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
+&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/debug.png" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
 &lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
 
 &lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;

@@ -33,8 +33,8 @@
 
           <article class="post featured">
             <header class="major">
-              <h2><a href="#">Blog</a></h2>
-              <p>At the moment, this page is just a placeholder. In the future, I will write a number of blogposts describing the latest technical papers, some of my debugging experiences, and my take on where the future is headed. 
+              <h2><a href="#">My Projects</a></h2>
+              <p>I have a number of cool projects that I am excited to talk about. Unfortunately, many of the projects here are works in progress, or are being used to start a company and I cant share all of the details/source code. 
 							</p>
             </header>
 						<!-- <p>
@@ -51,7 +51,7 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-						{% if post.path contains 'article' %}
+						{% if post.path contains 'projects' %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
 						<article>
 							<header>
@@ -61,7 +61,7 @@
 							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 							<p>{{ post.excerpt }}</p>
 							<ul class="actions">
-								<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+								<li><a href="{{ post.url | absolute_url }}" class="button">Explore</a></li>
 							</ul>
 						</article>
 
