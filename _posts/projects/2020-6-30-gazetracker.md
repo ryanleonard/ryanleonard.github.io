@@ -6,23 +6,10 @@ excerpt: "A new solution for fast and accurate control of your cursor with just 
 image: "/images/pic02.jpg"
 ---
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+## Motivation
+To the best of my knowledge, there are few existing solutions which allow disabled individuals to interact with technology. In the extreme case, someone with complete paralysis such as stephen hawking is unable to interact with any technology except for his expensive wheelchair. 
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+I created a gazetracking solution that I believe can work with any webcam, and can directly predict which pixel you are looking at down to approximately a 1cm radius (on a 15 inch computer monitor). If this level of accuracy is not enough, I added an interface which allows you to fine tune the position of a computer cursor to any position on the screen.
 
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+## Everything Else
+For a better description of the features of this tool, please check out the attached youtube video below. As I am currently planning on using this technology to develop a commercial wheelchair, I am hesitant to share the details of my implementation.
