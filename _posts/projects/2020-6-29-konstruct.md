@@ -3,7 +3,7 @@ layout: post
 title:  "Konstruct"
 date:   2019-11-30
 excerpt: "A set of tools for generating simulation data using Unity 3D"
-image: "/images/futurism.jpg"
+image: "/images/konstruct_cover.png"
 ---
 
 ## Motivation

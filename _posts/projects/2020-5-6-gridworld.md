@@ -3,7 +3,7 @@ layout: post
 title:  "Ultimate Gridworld"
 date:   2019-5-20
 excerpt: "An Easily extensible grid based maze generator with obstacles"
-image: "/images/futurism.jpg"
+image: "/images/gridworld_cover.png"
 ---
 
 ## Summary

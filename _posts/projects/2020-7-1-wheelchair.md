@@ -3,8 +3,16 @@ layout: post
 title:  "Wheelchair"
 date:   2020-2-15
 excerpt: "A Semi-Autonomous Wheelchair that you can control with just your eyes"
-image: "/images/futurism.jpg"
+image: "/images/wheelchair_cover.png"
+youtubeId1: AMb-xjAuv3Q
+youtubeId2: z8XSkEGeyec
+
 ---
+
+### The Parts
+
+{% include youtubePlayer.html id=page.youtubeId1 %}
+{% include youtubePlayer.html id=page.youtubeId2 %}
 
 ## Motivation
 Progress in the field of robotics is impressive. Already, we are seeing its impacts in warehouses, factories, and we are promised by some individuals that we will soon see applications in self driving cars. Unfortunately, the majority of the commerical efforts in this field are relatively separated from public view. One demograhic which could particularly benefit from the robotics revolution is the group of people suffering from serious physical disabilities. Industry, so focused on the low hanging fruit of robotics has missed out on this important demographic, where their work could have life changing impacts. I am currently using my knowledge and resources to create a viable solution for enabling the disabled to  independently interact with the world around them.
