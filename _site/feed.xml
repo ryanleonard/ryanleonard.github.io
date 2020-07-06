@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-05T17:52:11-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Wheelchair</title><link href="/blog/wheelchair/" rel="alternate" type="text/html" title="Wheelchair" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/wheelchair</id><content type="html" xml:base="/blog/wheelchair/">&lt;h3 id=&quot;the-parts&quot;&gt;The Parts&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-06T13:50:42-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Computer Vision Basics</title><link href="/blog/computer-vision-basics/" rel="alternate" type="text/html" title="Computer Vision Basics" /><published>2020-07-05T00:00:00-06:00</published><updated>2020-07-05T00:00:00-06:00</updated><id>/blog/computer-vision-basics</id><content type="html" xml:base="/blog/computer-vision-basics/">&lt;h1 id=&quot;the-basics-of-computer-vision&quot;&gt;The Basics of Computer Vision&lt;/h1&gt;
+&lt;p&gt;Computer vision can be an intimidating field, as it is arguably difficult, and math intensive. It encompasses subfields such as geometry, linear algebra, and machine learning, among others and can take a long time to master. While there is no shortage of material on the internet telling you how to “build” a state of the art image classifier in 5 lines of code or less, these tutorials hide the details of how these systems work. While these tutorials are good for some audiences who just want a quick solution to their problems, they can often be detremental by depriving the users of insights into why things break. Without these insights, most people will just give up on a solution, when minor alterations to the underlying algorithm could solve many of their problems.&lt;/p&gt;
+
+&lt;p&gt;This post is intended to briefly describe some important concepts to give new developers an idea about what tools more sophistocated algorithms are using behind the scenes. Many of these topics are active fields of research, and if there is enough interest, I can go over them in more detail at a later date.&lt;/p&gt;
+
+&lt;h2 id=&quot;kernels&quot;&gt;Kernels&lt;/h2&gt;
+&lt;p&gt;Gaussian Blur, Edge detectors, Corner Detectors, etc&lt;/p&gt;
+
+&lt;h2 id=&quot;feature-detectors&quot;&gt;Feature Detectors&lt;/h2&gt;
+&lt;p&gt;DOG, HOG, SIFT, SURF, ORB, etc&lt;/p&gt;
+
+&lt;h2 id=&quot;camera-calibration&quot;&gt;Camera Calibration&lt;/h2&gt;
+&lt;p&gt;Camera Matrix K, Distortion Coefficients, Extrinsics Calibration&lt;/p&gt;
+
+&lt;h2 id=&quot;epipolar-geometry&quot;&gt;Epipolar Geometry&lt;/h2&gt;
+&lt;p&gt;Stereo Rectification, Epipolar Lines, Triangulation/Project and Unproject operations.&lt;/p&gt;
+
+&lt;h2 id=&quot;filtering&quot;&gt;Filtering&lt;/h2&gt;
+&lt;p&gt;RANSAC, Outlier Rejection&lt;/p&gt;
+
+&lt;h2 id=&quot;3d-reconstruction&quot;&gt;3D Reconstruction&lt;/h2&gt;
+&lt;p&gt;ICP, Voxel Grids, Surfels&lt;/p&gt;
+
+&lt;h2 id=&quot;pyramiding&quot;&gt;Pyramiding&lt;/h2&gt;
+&lt;p&gt;Upscale and downscale, lead into application for optical flow&lt;/p&gt;
+
+&lt;h2 id=&quot;optical-flow&quot;&gt;Optical Flow&lt;/h2&gt;
+&lt;p&gt;Simple feature tracking over frames, as well as dense methods&lt;/p&gt;
+
+&lt;h2 id=&quot;deep-neural-networks&quot;&gt;Deep Neural Networks&lt;/h2&gt;
+&lt;p&gt;Address the obnoxious figures that all of the online tutorials put up without any explanation.&lt;/p&gt;</content><summary type="html">In this post, I go over some basic computer vision concepts to give developers an idea of what goes on behind the scenes of more sophistocated algorithms</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry><entry><title type="html">Wheelchair</title><link href="/blog/wheelchair/" rel="alternate" type="text/html" title="Wheelchair" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/wheelchair</id><content type="html" xml:base="/blog/wheelchair/">&lt;h3 id=&quot;the-parts&quot;&gt;The Parts&lt;/h3&gt;
 
 &lt;div class=&quot;embed-container&quot;&gt;
     &lt;iframe src=&quot;https://www.youtube.com/embed/AMb-xjAuv3Q&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
@@ -181,61 +211,4 @@ Because I am only using a single camera sensor, it is far too easy to lose odome
 
 &lt;p&gt;A dense depth provided by the realsense will likely still be very error prone due to the nature of the features nad reflections on the surface of a body of water. I would also like to explore the use of new methods such as: https://openaccess.thecvf.com/content_CVPR_2020/papers/Thapa_Dynamic_Fluid_Surface_Reconstruction_Using_Deep_Neural_Network_CVPR_2020_paper.pdf to gain a more accurate model of the surface of the river.&lt;/p&gt;
 
-&lt;p&gt;Upon the release of the long range Intel Realsense d455, I will likely revisit this project, as it has still has a great deal of commercial potential, as well as the potential to keep surveyors safe as they do their jobs.&lt;/p&gt;</content><summary type="html">A computer vision approach for conducting hydrology surveys</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">My special test!</title><link href="/blog/new-test/" rel="alternate" type="text/html" title="My special test!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/new-test</id><content type="html" xml:base="/blog/new-test/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;I just want this to do something cool&lt;/p&gt;
-
-&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
-
-&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
-
-&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
-&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
-&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/debug.png" /></entry><entry><title type="html">My special test!</title><link href="/blog/new-test-copy/" rel="alternate" type="text/html" title="My special test!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/new-test copy</id><content type="html" xml:base="/blog/new-test-copy/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;I just want this to do something cool&lt;/p&gt;
-
-&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
-
-&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
-
-&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
-&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
-&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/debug.png" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
-
-&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
-
-&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
-
-&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
-&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
-&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry></feed>
+&lt;p&gt;Upon the release of the long range Intel Realsense d455, I will likely revisit this project, as it has still has a great deal of commercial potential, as well as the potential to keep surveyors safe as they do their jobs.&lt;/p&gt;</content><summary type="html">A computer vision approach for conducting hydrology surveys</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry></feed>
