@@ -4,6 +4,7 @@ title:  "Gazetracker"
 date:   2020-2-15
 excerpt: "A new solution for fast and accurate control of your cursor with just your eyes"
 image: "/images/gazetracker_header.png"
+youtubeId1: vDqv2U0Zu9E
 ---
 
 ## Motivation

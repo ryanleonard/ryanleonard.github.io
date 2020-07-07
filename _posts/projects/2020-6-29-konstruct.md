@@ -4,7 +4,12 @@ title:  "Konstruct"
 date:   2019-11-30
 excerpt: "A set of tools for generating simulation data using Unity 3D"
 image: "/images/konstruct_cover.png"
+youtubeId1: FHx5oGUPqlc
+youtubeId2: vDqv2U0Zu9E
+
 ---
+{% include youtubePlayer.html id=page.youtubeId1 %}
+{% include youtubePlayer.html id=page.youtubeId2 %}
 
 ## Motivation
 As I was learning the fundamentals of deep learning, I found immensely frustrating that I was constrained to working with pre-existing datasets. Moreover, it was very difficult and impreactical to go off and build new datasets with traditional approaches, (one could spend days or weeks manually annotating images with object segmentation tasks and still come up with an insignificant dataset depending on the task.) With my background in computer vision and computer graphics, I decided to implement a new tool to automate this painful process.
