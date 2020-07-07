@@ -4,8 +4,9 @@ title:  "Gazetracker"
 date:   2020-2-15
 excerpt: "A new solution for fast and accurate control of your cursor with just your eyes"
 image: "/images/gazetracker_header.png"
-youtubeId1: vDqv2U0Zu9E
+youtubeId1: JKsqNEyIFl4
 ---
+{% include youtubePlayer.html id=page.youtubeId1 %}
 
 ## Motivation
 To the best of my knowledge, there are few existing solutions which allow disabled individuals to interact with technology. In the extreme case, someone with complete paralysis such as stephen hawking is unable to interact with any technology except for his expensive wheelchair. 
