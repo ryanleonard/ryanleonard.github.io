@@ -6,7 +6,7 @@ excerpt: "A Semi-Autonomous Wheelchair that you can control with just your eyes"
 image: "/images/wheelchair_cover.png"
 youtubeId1: AMb-xjAuv3Q
 youtubeId2: z8XSkEGeyec
-youtubeId3: CKyYP8Ri_LE
+youtubeId3: T1uub8PVldE
 
 ---
 {% include youtubePlayer.html id=page.youtubeId3 %}
