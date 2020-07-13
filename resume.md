@@ -21,7 +21,7 @@ Helped develop a novel SPEAR algorithm for policy elicitation between mulitple h
 Completed a degree in applied mathematics with a minor in computer science. Courses include Mathematical Statistics, Applied Analysis, Partial Differential Equations, Differential Equations, Markov Processes, Numerical Analysis, Complex Variables, Operating Systems, Computer Vision, and Intro to Artificial Intelligence
 
 ## Work Experience 
-#### Self Employed Robotics Engineer: February 2020 - Present  
+#### R&D Robotics Engineer: February 2020 - Present  
 Built a novel gazetracking tool from scratch using Pytorch, OpenCV, and Qt. Designed and 3D printed a custom control interface for most powered wheelchairs and includes sensor housing. Using ROS, C++ and Python, implemented control and navigation algorithms for navigating a semi-autonomous wheelchair around obstacles. Using Unity3D built a custom simulation environment with ROS integration, as well as depth and instance segmentation shaders which allow for efficient and accurate generation of training data for neural networks and other robotics applications.
 
 #### Research Assistant: August 2017 - December 2019  
@@ -44,7 +44,7 @@ Helped the CU Robotics club develop hardware and software for the NASA Robotic M
 
 
 ## Languages
-C/C++, Python, C#
+C/C++, Python, C#, Bash, HTML
 
 ## Technologies
 ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack
