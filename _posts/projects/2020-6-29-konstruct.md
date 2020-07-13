@@ -25,8 +25,9 @@ More recently, I have also started using the ROS-Sharp plugin for Unity. This pl
 
 ## Future Plans:
 - **Domain Randomization:** While Konstruct can currenlty provide information about objects placed randomly throughout a scene, there are several tricks which can be used to generate far more diverse datasets. For example, by varying lighting conditions, adding stickers to simulate stains or scuffs, and changing colors and texture properties of the objects, it should be possible to generate a far more diverse datset with little effort. This will in turn lead to the development of models which generalize better to the real world.
+- **3D Reconstruction:** I would like to eventually include a variant of Kinect Fusion in this library to make it easier new users to reconstruct models to load into the simulation.
 
 
 ## Current Uses
-Right now, I am actively using the Konstruct in the development of my self driving wheelchair. This tool was incredibly helpful when I was developing a proof of concept solution without any physical hardware. Now that I have built the first version of my wheelchair, I am working to train new deep learning models on segmentation data to augment my navigation costmap.
+Right now, I am actively using the Konstruct in the development of my semi autonomous wheelchair. This tool was incredibly helpful when I was developing a proof of concept solution without any physical hardware. Now that I have built the first version of my wheelchair, I am working to train new deep learning models on segmentation data to augment my navigation costmap.
 {% include youtubePlayer.html id=page.youtubeId2 %}
