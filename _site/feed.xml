@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-07T21:12:09-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Computer Vision Basics</title><link href="/blog/computer-vision-basics/" rel="alternate" type="text/html" title="Computer Vision Basics" /><published>2020-07-05T00:00:00-06:00</published><updated>2020-07-05T00:00:00-06:00</updated><id>/blog/computer-vision-basics</id><content type="html" xml:base="/blog/computer-vision-basics/">&lt;h1 id=&quot;the-basics-of-computer-vision&quot;&gt;The Basics of Computer Vision&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-13T00:40:49-06:00</updated><id>/</id><title type="html">Massively</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Computer Vision Basics</title><link href="/blog/computer-vision-basics/" rel="alternate" type="text/html" title="Computer Vision Basics" /><published>2020-07-05T00:00:00-06:00</published><updated>2020-07-05T00:00:00-06:00</updated><id>/blog/computer-vision-basics</id><content type="html" xml:base="/blog/computer-vision-basics/">&lt;h1 id=&quot;the-basics-of-computer-vision&quot;&gt;The Basics of Computer Vision&lt;/h1&gt;
 &lt;p&gt;Computer vision can be an intimidating field, as it is arguably difficult, and math intensive. It encompasses subfields such as geometry, linear algebra, and machine learning, among others and can take a long time to master. While there is no shortage of material on the internet telling you how to “build” a state of the art image classifier in 5 lines of code or less, these tutorials hide the details of how these systems work. While these tutorials are good for some audiences who just want a quick solution to their problems, they can often be detremental by depriving the users of insights into why things break. Without these insights, most people will just give up on a solution, when minor alterations to the underlying algorithm could solve many of their problems.&lt;/p&gt;
 
 &lt;p&gt;This post is intended to briefly describe some important concepts to give new developers an idea about what tools more sophistocated algorithms are using behind the scenes. Many of these topics are active fields of research, and if there is enough interest, I can go over them in more detail at a later date.&lt;/p&gt;
@@ -28,38 +28,34 @@
 &lt;p&gt;Simple feature tracking over frames, as well as dense methods&lt;/p&gt;
 
 &lt;h2 id=&quot;deep-neural-networks&quot;&gt;Deep Neural Networks&lt;/h2&gt;
-&lt;p&gt;Address the obnoxious figures that all of the online tutorials put up without any explanation.&lt;/p&gt;</content><summary type="html">In this post, I go over some basic computer vision concepts to give developers an idea of what goes on behind the scenes of more sophistocated algorithms</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry><entry><title type="html">Wheelchair</title><link href="/blog/wheelchair/" rel="alternate" type="text/html" title="Wheelchair" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/wheelchair</id><content type="html" xml:base="/blog/wheelchair/">&lt;h3 id=&quot;the-parts&quot;&gt;The Parts&lt;/h3&gt;
-
-&lt;div class=&quot;embed-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/AMb-xjAuv3Q&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+&lt;p&gt;Address the obnoxious figures that all of the online tutorials put up without any explanation.&lt;/p&gt;</content><summary type="html">In this post, I go over some basic computer vision concepts to give developers an idea of what goes on behind the scenes of more sophistocated algorithms</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry><entry><title type="html">Wheelchair</title><link href="/blog/wheelchair/" rel="alternate" type="text/html" title="Wheelchair" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/wheelchair</id><content type="html" xml:base="/blog/wheelchair/">&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/T1uub8PVldE&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
   &lt;/div&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Over the past few months, I worked to build a proof of concept semi autonomous wheelchair from the ground up. By mounting a depth camera to my wheelchair, I can construct 3D maps of my surroundings which can be used for more sophistocated obstacle detection and navigation tasks. I created a custom Gazetracking solution which operates using a simple web camera and allows you to control your computer cursor with just your eyes. A user can drive my wheelchair by either using a virtual joystick, or by selecting waypoints on the generated map, and letting the wheelchair autonomously take you to your destination.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Progress in the field of robotics is impressive. We are already seeing its impacts in warehouses, factories, and some individuals promise us that fully self driving cars are right around the corner. Unfortunately, the majority of the commerical efforts in this field are relatively separated from public view. One demograhic which could especially benefit from the robotics revolution is the group of people suffering from serious physical disabilities. According to the Reeve Foundation, nearly 1 in 50 people are living with some form of paralysis. My hope is that by developing new assistive robotic technologies, we can have a meaningful impact in the lives of millions of people around the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;p&gt;The first version of my wheelchair consists of a 3D printed control mount and RGB-D camera which can be easily attached to the joystick controller of most power wheelchairs. This system gives the user the ability to perform both manual and semi-autonomous navigation. Through the use of a graphicalThe users of this system currently control all navigation aspects through a graphical user interface on a computer screen.&lt;/p&gt;
+
+&lt;p&gt;This graphical interface has three main components. The first component is a virtual joystick with buttons for directly telling the wheelchair to move forward, backward, left, or right. The second component provides the user with a display of what the camera sensor can see. This component allows the user to simply click on any point in view, and the wheelchair will navigate there autonomously. The final component displays the map generated from the computer vision system. The user can simply click on any part of the map, and the chair will attempt to autonomously navigate to the desired location.&lt;/p&gt;
+
+&lt;p&gt;The graphical interface I am using for my wheelchair provides a method of control, but it is still impossible for individuals with significant paralysis, such as Stephen Hawking, to use. To get around this problem, I built a gaze tracking tool which can accurately predict to within around half an inch (on a 15 inch computer monitor) which pixel a user is looking at. If this level is not sufficient for your task, it also has a mode for fine grained control to more accurately select smaller targets. This tool is configured to directly control your mouse using a simple web camera. For my specific application, I decided to use an infrared camera so that the user can still operate in the dark.&lt;/p&gt;
 
 &lt;div class=&quot;embed-container&quot;&gt;
     &lt;iframe src=&quot;https://www.youtube.com/embed/z8XSkEGeyec&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
   &lt;/div&gt;
 
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;Progress in the field of robotics is impressive. Already, we are seeing its impacts in warehouses, factories, and we are promised by some individuals that we will soon see applications in self driving cars. Unfortunately, the majority of the commerical efforts in this field are relatively separated from public view. One demograhic which could particularly benefit from the robotics revolution is the group of people suffering from serious physical disabilities. Industry, so focused on the low hanging fruit of robotics has missed out on this important demographic, where their work could have life changing impacts. I am currently using my knowledge and resources to create a viable solution for enabling the disabled to  independently interact with the world around them.&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;p&gt;I recently finished the first functional prototype of my wheelchair. It consists of a 3D printed control mount and RGB-D camera which can be easily attached to any power wheelchair’s joystick controller, and gives the user the ability to perform both manual and semi-autonomous navigation. The users of this system currently control all navigation aspects through a graphical user interface on a computer screen.&lt;/p&gt;
-
-&lt;p&gt;This graphical interface has three main components. The first component is a virtual joystick with buttons for moving directly telling the wheelchair to move forward, backward, left, right and return to neutral. The second component provides the user with a display of what the camera sensor sees. This component allows the user to simply click on any point in view, and the wheelchair will navigate there autonomously. The final component is a 2D map, generated from previously observed spaces that the wheelchair has traveled through. This map provides the user with the ability to simply click on the map to revisit places they have already visited.&lt;/p&gt;
-
-&lt;p&gt;The graphical interface I am using for my wheelchair provides a new method of control, but it is still impossible for individuals with significant paralysis, such as Stephen Hawking, to use. To get around this problem, I built a gaze tracking tool (TODO: Add link to website page) which can accurately predict to within ~1cm (on a 15 inch computer monitor) which pixel a user is looking at. If this level is not sufficient for your task, it also has a mode for fine grained control to more accurately select smaller targets. This tool is configured to directly control your mouse using a simple web camera, and allows you wink to perfom different clicking operations.&lt;/p&gt;
-
-&lt;h2 id=&quot;current-challenges&quot;&gt;Current Challenges&lt;/h2&gt;
-&lt;p&gt;One of the largest problems that this current wheelchair iteration faces is a lack of sensor data. As a result, the map based navigation method mentioned above is not as reliable as it could be. Moreover, using only a single camera sensor, the wheelchair is unaware of peripheral, and potentially dynamic obstacles. 
-Because I am only using a single camera sensor, it is far too easy to lose odometry information, leading to an unacceptable failure frequency.&lt;/p&gt;
-
 &lt;h2 id=&quot;future-plans&quot;&gt;Future Plans&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;I currently believe that the best way forward for this project is to build a wheelchair from the ground up. This will allow me to increase the amount of power available to the system, more accurate motors with wheel encoders, and a tightly integrated sensor array that can accurately perceive the 360 degree environment around it. Moreover, it will also allow me to create a more aesthetically pleasing product.&lt;/li&gt;
-  &lt;li&gt;Follow Me! The output bandwidth of someone with complete paralysis is extremely limited. With a 360 degree sensor array, I will be able to let someone using my wheelchair click on a person they wish to follow. This will cause the wheelchair to take over all navigation responsibilities, thus freeing the user to browse the internet, enjoy the scenery, or hold a conversation with their friend without having to focus on following their friend.&lt;/li&gt;
-  &lt;li&gt;Complex Maneuvers. Even with a natural control interface, certain tasks such as driving your wheelchair into a car can be extremely difficult and may require help from an outside party. I want to add functionality which will be able to fully autonomously handle this task for my users.&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">A Semi-Autonomous Wheelchair that you can control with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/wheelchair_cover.png" /></entry><entry><title type="html">Gazetracker</title><link href="/blog/gazetracker/" rel="alternate" type="text/html" title="Gazetracker" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/gazetracker</id><content type="html" xml:base="/blog/gazetracker/">&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;li&gt;&lt;strong&gt;Custom Hardware:&lt;/strong&gt;  As I mentioned above, this wheelchair is currently just a proof of concept; it can demonstrate specific key features, but is not yet reliable enough to be a commercial product. I currently believe that the best way forward for this project is to build a wheelchair from the ground up. This will allow me to increase the amount of power available to the system, include accurate motors with wheel encoders for more reliable position control, and a tightly integrated sensor array that can accurately perceive the 360 degree environment around it. Moreover, it will also allow me to create a more aesthetically pleasing product.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved Autonomy:&lt;/strong&gt; My wheelchair is currently semi autonomous, meaning that it can attempt to navigate a path between two points, but will still require user intervention to prevent collisions. With a more advanced sensor array, I will be able to work on implementing more advanced autonomous features such as navigating around people in a moving airport, following a friend, or moving up a ramp and into a car. This behavior will make it easier and safer for users of my wheelchair to navigate and multitask. Moreover, a fully autonomous chair might have commercial applications in realms such as short distance ride sharing, and the transportation of patients around hospitals.&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">A Semi-Autonomous Wheelchair that you can control with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/wheelchair_cover_new.png" /></entry><entry><title type="html">Gazetracker</title><link href="/blog/gazetracker/" rel="alternate" type="text/html" title="Gazetracker" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/gazetracker</id><content type="html" xml:base="/blog/gazetracker/">&lt;div class=&quot;embed-container&quot;&gt;
     &lt;iframe src=&quot;https://www.youtube.com/embed/JKsqNEyIFl4&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
   &lt;/div&gt;
@@ -72,43 +68,33 @@ Because I am only using a single camera sensor, it is far too easy to lose odome
 &lt;p&gt;I am also in the process of exploring how this technology can be used to improve reaction time and accuracy for online gaming.&lt;/p&gt;
 
 &lt;h2 id=&quot;everything-else&quot;&gt;Everything Else&lt;/h2&gt;
-&lt;p&gt;For a better description of the features of this tool, please check out the attached youtube video below. As I am currently planning on using this technology to develop a commercial wheelchair, I am hesitant to share the details of my implementation.&lt;/p&gt;</content><summary type="html">A new solution for fast and accurate control of your cursor with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/gazetracker_header.png" /></entry><entry><title type="html">Konstruct</title><link href="/blog/konstruct/" rel="alternate" type="text/html" title="Konstruct" /><published>2019-11-30T00:00:00-07:00</published><updated>2019-11-30T00:00:00-07:00</updated><id>/blog/konstruct</id><content type="html" xml:base="/blog/konstruct/">&lt;div class=&quot;embed-container&quot;&gt;
+&lt;p&gt;For a better description of the features of this tool, please check out the attached youtube video below. As I am currently planning on using this technology to develop a commercial wheelchair, I am hesitant to share the details of my implementation.&lt;/p&gt;</content><summary type="html">A new solution for fast and accurate control of your cursor with just your eyes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/gazetracker_header.png" /></entry><entry><title type="html">Konstruct</title><link href="/blog/konstruct/" rel="alternate" type="text/html" title="Konstruct" /><published>2020-02-15T00:00:00-07:00</published><updated>2020-02-15T00:00:00-07:00</updated><id>/blog/konstruct</id><content type="html" xml:base="/blog/konstruct/">&lt;div class=&quot;embed-container&quot;&gt;
     &lt;iframe src=&quot;https://www.youtube.com/embed/FHx5oGUPqlc&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
   &lt;/div&gt;
 
-&lt;div class=&quot;embed-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/vDqv2U0Zu9E&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
-    &lt;/iframe&gt;
-  &lt;/div&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Using Unity 3D, I created a tool for the large scale generation of training data for computer vision tasks. With the use of some outside libraries such as ROS-Sharp, I found that this tool could be very helpful as a simulation environment for robotics.&lt;/p&gt;
 
 &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;As I was learning the fundamentals of deep learning, I found immensely frustrating that I was constrained to working with pre-existing datasets. Moreover, it was very difficult and impreactical to go off and build new datasets with traditional approaches, (one could spend days or weeks manually annotating images with object segmentation tasks and still come up with an insignificant dataset depending on the task.) With my background in computer vision and computer graphics, I decided to implement a new tool to automate this painful process.&lt;/p&gt;
-
-&lt;p&gt;The Konstruct is named after the Construct in the Matrix, as it is essentially a simulation environment where we can train and explore the behavior of our algorithms without any consequences. Moreover, Unity 3D provides a strong featureset over Gazebo (the default robotics simulation environment) with respect to photorealism and resource utilization.&lt;/p&gt;
+&lt;p&gt;As I taught myself the principles of deep learning, I found immensely frustrating that I was constrained to working with a collection pre-existing datasets. As I was training my image classifiers, I knew that I was already trying to tackle a solved problem, and I wanted to see if I could get my models to work on something new. Unfortunately, it was very difficult and impreactical to go off and build new datasets with traditional approaches. For tasks such as image segmentation, one could spend days or weeks manually annotating images, and still not have enough data to train anything useful. Moreover, annotating data by hand is incredibly error prone which can result in poor performance in your models later on. In an effort to get around this problem, I decided to use my knowledge of computer graphics to generate large scale datasets with perfect annotations.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;p&gt;This project is still a work in proress, and can be considered a fresh start on one of my graduate projects.&lt;/p&gt;
+&lt;p&gt;Konstruct is a simulation environment based on Unity3D which can be used to generate large, perfectly annotated pose and image datasets. In order to run, the uesr must provide 3D models of their objects of interest. Konstruct will then endlessly generate randomized scenes of these objects and capture images from various angles. Using a set of shaders, I am able to produce a depth map, as well as a perfect segmentation mask of the various objects in each scene. In addition to depth and sementation data, the ground truth 6 degree of freedom pose of each object in the scene, including the camera, is recorded to a JSON file.&lt;/p&gt;
 
+&lt;p&gt;More recently, I have also started using the ROS-Sharp plugin for Unity. This plugin allows you to run robotics code directly in simulation. This feature is incredibly useful because it allows you to evaluate the performance and shortcomings of your system in a world with perfect information.&lt;/p&gt;
+
+&lt;h2 id=&quot;future-plans&quot;&gt;Future Plans:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;High quality rendering and photorealism provided by Unity3D&lt;/li&gt;
-  &lt;li&gt;Fast, accurate physics simulation using PhysX&lt;/li&gt;
-  &lt;li&gt;Various graphics shaders for automatically generating depth and ground truth segmentation data for all objects in the scene.&lt;/li&gt;
-  &lt;li&gt;Domain randomization methods for generating diverse pose and image data for a wide variety of objects.&lt;/li&gt;
-  &lt;li&gt;The use of ROS-SHARP for tight integration with ROS (navigation, image processsing, controls, etc.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I am currently working to add tools for a Real-to-Sim data generation tool. In essence, a user will be able to perform a 3D reconstruction of various scenes and objects, and apply the same domain randomization techniques described above to easily generate massive datasets for very unique objects.&lt;/p&gt;
-
-&lt;h2 id=&quot;todo&quot;&gt;TODO:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Add in additional methods for domain randomization. Texture modification of various objects using “stickers”, lighting properties, colors, etc.&lt;/li&gt;
-  &lt;li&gt;Work more in depth for targeted physics properties for manipulation tasks.&lt;/li&gt;
-  &lt;li&gt;Set up a wrapper for the depth shader. Right now, to get the desired level of accuracy, I have limited the clipping planes, which can introduce visual artifacts in the RGB and segmented image data.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Domain Randomization:&lt;/strong&gt; While Konstruct can currenlty provide information about objects placed randomly throughout a scene, there are several tricks which can be used to generate far more diverse datasets. For example, by varying lighting conditions, adding stickers to simulate stains or scuffs, and changing colors and texture properties of the objects, it should be possible to generate a far more diverse datset with little effort. This will in turn lead to the development of models which generalize better to the real world.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;current-uses&quot;&gt;Current Uses&lt;/h2&gt;
-&lt;p&gt;Right now, I am actively using the Konstruct in the development of my self driving wheelchair. For example, I am working to train machine learning models on the segmentation data to augment my navigation costmap with more accurate obstacle detection methods which can more descriptively convey the nature of the world.&lt;/p&gt;</content><summary type="html">A set of tools for generating simulation data using Unity 3D</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/konstruct_cover.png" /></entry><entry><title type="html">Ultimate Gridworld</title><link href="/blog/gridworld/" rel="alternate" type="text/html" title="Ultimate Gridworld" /><published>2019-05-20T00:00:00-06:00</published><updated>2019-05-20T00:00:00-06:00</updated><id>/blog/gridworld</id><content type="html" xml:base="/blog/gridworld/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Right now, I am actively using the Konstruct in the development of my self driving wheelchair. This tool was incredibly helpful when I was developing a proof of concept solution without any physical hardware. Now that I have built the first version of my wheelchair, I am working to train new deep learning models on segmentation data to augment my navigation costmap.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/vDqv2U0Zu9E&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+    &lt;/iframe&gt;
+  &lt;/div&gt;</content><summary type="html">A set of tools for generating simulation data using Unity 3D</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/konstruct_cover.png" /></entry><entry><title type="html">Ultimate Gridworld</title><link href="/blog/gridworld/" rel="alternate" type="text/html" title="Ultimate Gridworld" /><published>2019-05-20T00:00:00-06:00</published><updated>2019-05-20T00:00:00-06:00</updated><id>/blog/gridworld</id><content type="html" xml:base="/blog/gridworld/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;I built a new, easily extensible, gridworld simulation environment from scratch targeted for large scale research in the field of human robot collaboration.&lt;/p&gt;
 
 &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
@@ -128,102 +114,4 @@ Because I am only using a single camera sensor, it is far too easy to lose odome
 &lt;p&gt;It is important to be able to visualize how an environment changes at each timestep. For example, you may want to see how a fire spreads through the maze, or the steps that an agent takes. I currently provide this visualization by printing each gridworld as colored text to the terminal at each timestep. For example, the walls could be represented as a Green W, fires represented as a Red F, the path the agent took (from start to finish) have a yellow background. This visualization method maintains a lightweight tool with limited outside dependencies, although a better graphical interface, perhaps using Qt should be explored in the future.&lt;/p&gt;
 
 &lt;h2 id=&quot;ultimate-gridworld-in-use&quot;&gt;Ultimate Gridworld in Use&lt;/h2&gt;
-&lt;p&gt;Ultimate gridworld has already been used in the development and analysis of the SPEAR algorithm (TODO: ADD LINK TO PAPER IN ARXIV) This algorithm, was profiled and shown to achieve an order of magnitude performance boost over the state of the art performance over the course of thousands of unique worlds thanks to my efforts with this repository.&lt;/p&gt;</content><summary type="html">An Easily extensible grid based maze generator with obstacles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/gridworld_cover.png" /></entry><entry><title type="html">Smart Vent</title><link href="/blog/vent/" rel="alternate" type="text/html" title="Smart Vent" /><published>2018-12-15T00:00:00-07:00</published><updated>2018-12-15T00:00:00-07:00</updated><id>/blog/vent</id><content type="html" xml:base="/blog/vent/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Note: at the moment, this post is just a collection of thoughts and content that I wish to express more fluidly at a later date.&lt;/p&gt;
-
-&lt;p&gt;My smart vent is a project designed to increase the effeciency of air conditioning and heating systems by making sure that only active rooms of a house are heated and cooled.&lt;/p&gt;
-
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;As of this post, rooftop solar panels are incapable of generating enough power to completely disconnect most homes from the power grid. It is also the case that the largest consumer of power in most households is the climate control system, i.e. heating and cooling.&lt;/p&gt;
-
-&lt;p&gt;In late 2018, while I procrastinated studying for finals, I made the realization that in the same way the Nest thermostat saves energy by only heating the home when people are there, a great deal more savings could be obtained by only heating the active regions of a person’s house. With any luck, this technology will make people’s homes energy efficient enough switch to renewable energy.&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;My smart vent consists of an esp8266 wifi-enabled microcontroller, an infrared thermometer, a motion sensor, a motor and a custom housing. In addition, I created a hub using a raspberry pi for this vent to connect to.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The microcontroller communicates with the central hub to detect the user designated target temperature of the room. The infrared thermometer then measures the temperature of the environment around the vent and will open the vent when the climate control system needs to change the temperature of the room.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A wide field of view motion sensor tracks how frequently people navigate through the room and reports this information back to the central hub. If the hub is triggered frequently enough, the vent will receive an active status. Unless the vent is active, it will remain closed.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;By only heating active regions of the house, power consumption should be noticably reduced enough to compensate for the cost of the system and hopefully make solar power a viable option.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The total cost of all parts for the vent was only around $30 per vent, plus the cost of the raspberry pi setup was a little more pricey at around $100, but that is still less than the cost of a smart thermostat.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A machine learning model which learns a persons habbits and predicts when to heat/cool a room. (If we detect movement at 5pm every day, lets start heating the house at 4:30 so that it is at the right temperature when they show up)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;problems-that-came-up&quot;&gt;Problems that Came Up&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Initially, I tried to use a simple thermometer chip attached to the microcontroller, however, this solution was biased, measuring the heat of the air coming through the vent, rather than measuring the heat of the room. I solved this problem by switching to a more expensive infrared thermometer that can measure temperature at a distance.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I attempted to use the infrared thermometer as a motion sensor to detect a spike in temperature when a person passed by the beam. While this approach demonstrated moderate success, I decided against this approach for a number of reasons. First, it would require the sensor to protrude from the vent to allow it to be manipulated along a highly trafficked path which is unsightly. Second, this infrared beam, even if pointed in the direction of a highly trafficked path could still be easily avoided, leading the vent to falsely believe that the room it is in is inactive. Finally, manipulating this sensor is a level of involvement that could be intimidating and frustrating to many users who just want a plug and play solution. My solution was to simply get a motion sensor with a wide field of view that could rest under the surface of the vent.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;future-work&quot;&gt;Future Work&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Refine the housing&lt;/li&gt;
-  &lt;li&gt;Design PCB to tightly integrate microcontroller and all sensors/motors.&lt;/li&gt;
-  &lt;li&gt;Research power solutions:
-    &lt;ul&gt;
-      &lt;li&gt;Is it possible to recharge the battery with a fan generator powered by air coming through the vent?&lt;/li&gt;
-      &lt;li&gt;Is it possible to use a thermoelectric generator to recharge the battery from the temperature difference of the vent air and the ambient temperature of the room?&lt;/li&gt;
-      &lt;li&gt;Is it feasible to run wires through the air ducts to a wall outlet so that users dont have to worry about changing batteries?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Other Sensors:
-    &lt;ul&gt;
-      &lt;li&gt;Humidity?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Refine the user interface on the Raspberry Pi&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;status&quot;&gt;Status&lt;/h2&gt;
-&lt;p&gt;When I first came up with the idea for this product, several other “smart” vents were already commercially available, but they were pretty underwhelming in that they had limited features/sensors,  had to be controlled manually, and were prohibitively expensive. As I was wrapping up work on my prototype, a new company released a vent which matched almost all of the features I had developed. In addition, they had an overreaching patent which gives them rights to control hvac flow at vents…&lt;/p&gt;
-
-&lt;p&gt;I am currently occupied with other endeavors, but I am not ruling out the possibility of revisiting this project depending on the success of these competitors&lt;/p&gt;</content><summary type="html">An iteration on the Nest thermostat for room by room temperature control and energy savings</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry><entry><title type="html">StreamSurf</title><link href="/blog/streamsurf/" rel="alternate" type="text/html" title="StreamSurf" /><published>2017-10-31T00:00:00-06:00</published><updated>2017-10-31T00:00:00-06:00</updated><id>/blog/streamsurf</id><content type="html" xml:base="/blog/streamsurf/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;I created a computer vision tool to conduct core elements of hydrology surveys including Surface Velocity, surface angle, and flow rate. Unfortunately, the measurements I obtained from my efforts differed too greatly from the ground truth data.&lt;/p&gt;
-
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;The most important times to conduct a hydrology survey on a river is during times of high flow. Unfortunately, these are also the times when taking measurements are most dangerous. Traditional approaches require people to make contact with the raging waters of a river using equipment that can cost tens of thousands of dollars. If it were possible to create a method using cheap sensors that allow surveyors to make measurements from a distance, we could increase the scale of data collected by several orders of magnitude while moving people out of harms way.&lt;/p&gt;
-
-&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
-&lt;p&gt;My camera rig setup consisted of two Ximea cameras and an Inertial Measurement Unit (IMU) affixed to a piece of 8020 construction metal. With this camera rig, I recorded numerous data sequences of rivers and streams. With these datastreams, I detected the sparse SIFT features between the frames and triangulated their positions to generate a sparse 3D reconstruction.&lt;/p&gt;
-
-&lt;p&gt;I then created a Graphical user interfaces for the processing of the remaining data. This interface first had the user select a region of interest on the input image by drawing a box. This action filtered all of the other features of the scene, and I then used RANSAC (RANdom SAmple Consensus) to fit a plane to the remaining features. The difference between this plane’s normal vector, and the gravity vector of the IMU was reported as the surface angle of the river. I then computed a homography transformation of the user’s selected region of interest, allowing them to view a top down perspective of that section of the river.&lt;/p&gt;
-
-&lt;p&gt;At this point, the user was prompted to draw a line from one edge of the river to the other. These points were projected onto the plane from the previous step and reported to the user as the river’s cross sectional width.&lt;/p&gt;
-
-&lt;p&gt;Finally, I computed the dense Farneback optical flow for the pixels along the user’s cross sectional line. The start and end points of the optical flow vectors were projected onto the previously computed surface plane, and then using the known framerate of the camera, the surface velocity was reported at multiple intervals along the line.&lt;/p&gt;
-
-&lt;p&gt;Combining these velocity values with the known layout of the riverbed, I used the Law of the Wall to compute the velocity of the water at various depths. Ultimately, this information was used to compute the total flow rate of the river.&lt;/p&gt;
-
-&lt;h3 id=&quot;problems&quot;&gt;Problems&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;The camera setup I used was large and very prone to errors introduced by the the various sensors being pushed and pulled, and even small movements due temperature changes. As a result, many of the datasets I collected turned out to be useless.&lt;/li&gt;
-  &lt;li&gt;I attempted to implement dense reconstruction methods, and while they worked for static environments, they proved inaccurate on the dynamic surface of the river, either due to poor calibration, or the difficult nature of the waters visible features.&lt;/li&gt;
-  &lt;li&gt;Due to the issue mentioned above, my camera system needed to be recalibrated at the start of every session. To be done effectively, this process requires a large (~36’’ x 48’’) calibrationn target. However, due to the remote locations of my data collections, I was restricted to using a much smaller target (~8.5’’ x 11’’). This led a much longer calibration process which often produced flawed parameters.&lt;/li&gt;
-  &lt;li&gt;The targets I was measuring were often at distances greater than 20 meters. This distance was already stretching the accuracy of my system, and combined with frequent calibration issues, led to amplified errors.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
-&lt;p&gt;In the end, the data I collected was inconsistent with the ground truth measurements. In particular, I was unable to estimate the slope of the river with the fraction of a degree accuracy that was required.&lt;/p&gt;
-
-&lt;h3 id=&quot;future-directions&quot;&gt;Future Directions&lt;/h3&gt;
-&lt;p&gt;After the conclusion of this project, a number of new commercial depth sensors have been released. In particular, the intel realsense d435, and soon, the realsense d455 which has an effective range long enough to potentially be applicable in this domain. These sensors use the same principles I used, but come in a very rigid, enclosed housing which is highly effective at maintining the spatial relationship between the sensors. In addition, these sensors provide real time dense depth measurements which could lead to a more efficient reliable system.&lt;/p&gt;
-
-&lt;p&gt;A dense depth provided by the realsense will likely still be very error prone due to the nature of the features nad reflections on the surface of a body of water. I would also like to explore the use of new methods such as: https://openaccess.thecvf.com/content_CVPR_2020/papers/Thapa_Dynamic_Fluid_Surface_Reconstruction_Using_Deep_Neural_Network_CVPR_2020_paper.pdf to gain a more accurate model of the surface of the river.&lt;/p&gt;
-
-&lt;p&gt;Upon the release of the long range Intel Realsense d455, I will likely revisit this project, as it has still has a great deal of commercial potential, as well as the potential to keep surveyors safe as they do their jobs.&lt;/p&gt;</content><summary type="html">A computer vision approach for conducting hydrology surveys</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/futurism.jpg" /></entry></feed>
+&lt;p&gt;Ultimate gridworld has already been used in the development and analysis of the SPEAR algorithm (TODO: ADD LINK TO PAPER IN ARXIV) This algorithm, was profiled and shown to achieve an order of magnitude performance boost over the state of the art performance over the course of thousands of unique worlds thanks to my efforts with this repository.&lt;/p&gt;</content><summary type="html">An Easily extensible grid based maze generator with obstacles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/gridworld_cover.png" /></entry></feed>
