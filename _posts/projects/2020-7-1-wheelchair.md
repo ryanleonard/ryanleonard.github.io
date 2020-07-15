@@ -17,7 +17,6 @@ I have independently built a semi-autonomous wheelchair. By using my custom Gaze
 ## Motivation
 Progress in the field of robotics is impressive. Automation is working its way into factories, warehouses, and may soon be prevalent on the streets around us. While this technology is impressive, I believe that there are too many efforts to replace people, rather than augment their existing abilities. I have a strong interest in creating a new means of influencing robotic decision making by using methods which will not overwhelm an already preoccupied or disabled individuals. According to the Reeve Foundation, nearly 1 in 50 people are living with some form of paralysis. By building a semi autonomous wheelchair, I can demonstrate how even a quadrapalegic can independently navigate their surroundings using just their eyes. My hope is that by developing new assistive robotic technologies, we can have a meaningful, widespread impact on people's lives. 
 
-
 ## Features
 The first version of my wheelchair consists of a 3D printed control mount and RGB-D camera which can be easily attached to the joystick controller of most power wheelchairs. This system gives the user the ability to perform both manual and semi-autonomous navigation. The users of this system currently control all navigation aspects through a graphical user interface on a computer screen.
 
