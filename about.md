@@ -13,6 +13,9 @@ sitemap:
 
 My name is Ryan Leonard, and I am currently using my knowledge of Robotics, AI, and Computer Vision to make the world more accessible to individuals with severe physical disabilities. My first project since completing grad school, is a semi autonomous wheelchair that can be guided using only your eyes. Using my interface, the user simply expresses their intent to move to a location, and the wheelchair takes care of the navigation and obstacle avoidance tasks. When I am not working, I enjoy reading up on the latest technological breakthroughs, exploring the Colorado outdoors with my dog Milo, and playing various video games.
 
+
+<!-- <span class="image right"><img src="{{ "/images/robosub.jpg" | absolute_url }}" alt="" /></span> -->
+
 ### My Background
 <div class="box">
   <p>
@@ -29,7 +32,6 @@ My name is Ryan Leonard, and I am currently using my knowledge of Robotics, AI, 
 </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/robosub.jpg" | absolute_url }}" alt="" /></span>
 
 ### Now
 I am currently working independently to develop a semi-autonomous wheelchair to help individuals with severe physical disabilities, such as Stephen Hawking or Christopher Reeve better navigate and interact with the world. I built a new user interface and custom gazetracking tool which allows the user to navigate the world using only their eyes. Feel free to check out this project in more detail on my projects page!
