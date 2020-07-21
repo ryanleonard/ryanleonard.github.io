@@ -3,7 +3,7 @@ layout: post
 title:  "Wheelchair"
 date:   2020-2-15
 excerpt: "A Semi-Autonomous Wheelchair that you can control with just your eyes"
-image: "/images/wheelchair_cover_new.png"
+image: "/images/wheelchair.jpg"
 youtubeId1: AMb-xjAuv3Q
 youtubeId2: z8XSkEGeyec
 youtubeId3: tlGzP7P5LvY
