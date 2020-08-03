@@ -14,7 +14,8 @@ I am a self driven software engineer who frequently comes up with unique ideas a
 ## Education
 #### Masters in Computer Science: 2018-2019 GPA 3.94  
 Courses include: 
-Machine Learning, Graphics, Algorithmic Human Robot Interaction, Statistical Estimation of Dynamic Systems, Network Analysis, and Computational Genomics  
+Machine Learning, Graphics, Algorithmic Human Robot Interaction, Probabilistic Modeling, Statistical Estimation of Dynamic Systems, and Network Analysis  
+Developed Computer Vision based tools for conducting Hydrology Surveys
 Helped develop a novel SPEAR algorithm for policy elicitation between mulitple human and/or autonomous agents. Publication to be submitted to AAAI 2021
 
 #### Bachelors in Applied Mathematics: 2011-2016 GPA 3.3  
