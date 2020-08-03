@@ -51,5 +51,5 @@ C/C++, Python, C#, Bash, HTML
 ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack
 
 ## Interesting Projects
-Notable projects include Semi autonomous wheelchair, Gazetracking system, SPEAR, Smart Vent. For more projects, See my projects page!
+Notable projects include Semi Autonomous Wheelchair, Gazetracking system, SPEAR -- Single-shot Policy Explanation for Augmenting Rewards, and a Smart Vent. For more projects, See my projects page!
 
