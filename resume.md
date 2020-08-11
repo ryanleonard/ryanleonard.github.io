@@ -48,8 +48,8 @@ Helped the CU Robotics club develop hardware and software for the NASA Robotic M
 C/C++, Python, C#, Bash, HTML
 
 ## Technologies
-ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack
+ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack, Docker
 
 ## Interesting Projects
-Notable projects include Semi Autonomous Wheelchair, Gazetracking system, SPEAR -- Single-shot Policy Explanation for Augmenting Rewards, and a Smart Vent. For more projects, See my projects page!
+Notable projects include Semi Autonomous Wheelchair, Gazetracking system, SPEAR -- Single-shot Policy Explanation for Augmenting Rewards, and a Smart Vent . For more projects, See my projects page!
 
