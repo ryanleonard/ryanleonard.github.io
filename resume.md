@@ -16,7 +16,7 @@ I am a self driven software engineer who frequently comes up with unique ideas a
 Courses include: 
 Machine Learning, Graphics, Algorithmic Human Robot Interaction, Probabilistic Modeling, Statistical Estimation of Dynamic Systems, and Network Analysis  
 Developed Computer Vision based tools for conducting Hydrology Surveys
-Helped develop a novel SPEAR algorithm for policy elicitation between mulitple human and/or autonomous agents. Publication to be submitted to AAAI 2021
+Helped develop a novel SPEAR algorithm for policy elicitation between mulitple human and/or autonomous agents. 
 
 #### Bachelors in Applied Mathematics: 2011-2016 GPA 3.3  
 Completed a degree in applied mathematics with a minor in computer science. Courses include Mathematical Statistics, Applied Analysis, Partial Differential Equations, Differential Equations, Markov Processes, Numerical Analysis, Complex Variables, Operating Systems, Computer Vision, and Intro to Artificial Intelligence
