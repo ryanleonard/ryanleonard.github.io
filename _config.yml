@@ -11,9 +11,9 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-facebook:           default
-instagram:          default
-github:             default
+# facebook:           default
+# instagram:          default
+github:             ryanleonard
 
 # personal
 location:           Boulder, CO
