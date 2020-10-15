@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Jekyll Theme - About - Ryan
+title: Ryan's Resume
 description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
 sitemap:
     priority: 0.7
