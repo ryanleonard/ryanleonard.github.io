@@ -14,8 +14,9 @@ I am a self driven software engineer who frequently comes up with unique ideas a
 ## Education
 #### Masters in Computer Science: 2018-2019 GPA 3.94  
 Courses include: 
-Machine Learning, Graphics, Algorithmic Human Robot Interaction, Statistical Estimation of Dynamic Systems, Network Analysis, and Computational Genomics  
-Helped develop a novel SPEAR algorithm for policy elicitation between mulitple human and/or autonomous agents. Publication to be submitted to AAAI 2021
+Machine Learning, Graphics, Algorithmic Human Robot Interaction, Probabilistic Modeling, Statistical Estimation of Dynamic Systems, and Network Analysis  
+Developed Computer Vision based tools for conducting Hydrology Surveys
+Helped develop a novel SPEAR algorithm for policy elicitation between mulitple human and/or autonomous agents. 
 
 #### Bachelors in Applied Mathematics: 2011-2016 GPA 3.3  
 Completed a degree in applied mathematics with a minor in computer science. Courses include Mathematical Statistics, Applied Analysis, Partial Differential Equations, Differential Equations, Markov Processes, Numerical Analysis, Complex Variables, Operating Systems, Computer Vision, and Intro to Artificial Intelligence
@@ -47,8 +48,8 @@ Helped the CU Robotics club develop hardware and software for the NASA Robotic M
 C/C++, Python, C#, Bash, HTML
 
 ## Technologies
-ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack
+ROS, OpenCV, PCL, Pytorch, Tensorflow 2.0, CUDA, Open3D, Qt, OpenGL/freeglut, Git, Python Science Stack, Docker
 
 ## Interesting Projects
-Notable projects include Semi autonomous wheelchair, Gazetracking system, SPEAR, Smart Vent. For more projects, See my projects page!
+Notable projects include Semi Autonomous Wheelchair, Gazetracking system, SPEAR -- Single-shot Policy Explanation for Augmenting Rewards, and a Smart Vent . For more projects, See my projects page!
 
